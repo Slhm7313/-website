@@ -1,0 +1,36 @@
+#main_container-navbar{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    gap: 0.5rem;
+    align-items: center;
+
+    max-width: 1000px;
+    margin: 1.5rem auto;
+    width: 100%;
+}
+
+.navbar-items{
+    text-align: center;
+}
+.navbar-links{
+    display: block;
+    text-decoration: none;
+    color: var(--LightGreen);
+    padding: 0.5rem 0;
+    font-size: 1.3rem;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.navbar-links:hover{
+    color:var(--White);
+    font-weight: bold;
+    transform: translateY(-4px) scale(1.05);
+    text-shadow: 0 10px 35px var(--White);
+}
+
+/* Media Query για κινητά */
+@media (max-width: 768px) {
+    .navbar-links{
+        font-size: 0.7rem;
+    }
+}
