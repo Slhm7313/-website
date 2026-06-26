@@ -1,19 +1,20 @@
-#main_container-navbar{
+#main_container-navbar {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
     gap: 0.5rem;
     align-items: center;
 
-    max-width: 1000px;
+    max-width: 62.5rem;
     margin: 1.5rem auto;
     width: 100%;
 }
 
-.navbar-items{
+.navbar-items {
     text-align: center;
 }
-.navbar-links{
+
+.navbar-links {
     display: block;
     text-decoration: none;
     color: var(--LightGreen);
@@ -21,16 +22,17 @@
     font-size: 1.3rem;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.navbar-links:hover{
-    color:var(--White);
+
+.navbar-links:hover {
+    color: var(--White);
     font-weight: bold;
     transform: translateY(-4px) scale(1.05);
-    text-shadow: 0 10px 35px var(--White);
+    text-shadow: 0 0.625rem 2.1875rem var(--White);
 }
 
 /* Media Query για κινητά */
 @media (max-width: 768px) {
-    .navbar-links{
+    .navbar-links {
         font-size: 0.7rem;
     }
 }
