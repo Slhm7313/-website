@@ -1,0 +1,7 @@
+#main_cont_mathimata {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap: 2rem;
+    align-items: start;
+    max-width: 62.5rem;
+}
