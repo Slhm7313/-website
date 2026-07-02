@@ -163,3 +163,74 @@
 
 /*@Telos e-classes*/
 /*#Arxh idiaitera*/
+#cont_idiaitera_mathimata {
+    grid-row: 3;
+    grid-column: span 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+#idiaitera-p1 {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#img_idiaitera {
+    grid-row: 2;
+    grid-column: 1;
+
+    width: 100%;
+    max-width: 22rem; /* Περιορίζει το πλάτος οριζόντια */
+    height: 11rem; /* Μικρό, κομψό ύψος για να φαίνεται σαν διακριτικό row */
+    object-fit: cover; /* Κρατάει τις αναλογίες της εικόνας σωστές */
+
+    justify-self: center; /* Κεντράρει την εικόνα τέλεια στη μέση */
+    border-radius: 0.5rem; /* Minimal στρογγύλεμα */
+    box-shadow: 0 0.6rem 1.8rem var(--DarkBlue-Green);
+}
+
+#idiaitera-p2 {
+    grid-column: 1;
+    grid-row: 3;
+}
+
+.idiaitera-p {
+    text-align: center;
+    color: var(--White-Grren);
+}
+
+#idiaitera_span1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--Blue-Grren);
+    text-shadow: 0.1rem 0.1rem 0.4rem var(--Black);
+}
+
+#idiaitera_span2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--Blue-Grren);
+    text-shadow: 0 0.1rem 0 var(--White);
+}
+
+
+#idiaitera-ul {
+    font-size: 1.5rem;
+    list-style: none;
+    padding: 1rem 0 1rem 0;
+    margin: 0.5rem 0 0.5rem 0;
+    font-weight: bolder;
+}
+
+.idiaitera-li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.5rem 0 0.5rem 0;
+    text-shadow: 0 0.1rem 0 var(--Black);
+}
