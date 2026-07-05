@@ -32,7 +32,7 @@
     color: var(--White);
     font-size: 2.5rem;
     margin: 0 0 0.5rem 0;
-    letter-spacing: 1px;
+    letter-spacing: 0.09rem;
 }
 
 #footer-slogan-h3 {
@@ -83,7 +83,7 @@
     visibility: hidden;
     transition: bottom 0.3s cubic-bezier(0.47, 2, 0.41, 1.5), opacity 0.2s ease;
     white-space: nowrap;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.15); /* ΔΙΟΡΘΩΘΗΚΕ: Από 12px σε 0.75rem */
 }
 
 .footer-social-media-li:has(a:hover, a:focus-visible)::after {
@@ -100,7 +100,7 @@
     width: 3.8rem;
     height: 3.8rem;
     color: var(--LightGreen);
-    border: 2px solid var(--DarkGreen);
+    border: 0.125rem solid var(--DarkGreen); /* ΔΙΟΡΘΩΘΗΚΕ: Από 2px σε 0.125rem */
     border-radius: 100%;
     text-decoration: none;
     outline: none;
@@ -112,7 +112,7 @@
     position: absolute;
     content: '';
     inset: 100% 0 0 0;
-    background: var(--LightGreen); /* Γεμίζει με το ανοιχτό πράσινο */
+    background: var(--LightGreen);
     z-index: 1;
     transition: inset 0.3s ease-in-out;
 }
@@ -129,7 +129,7 @@
 .footer-social-media-a:focus-visible {
     color: var(--Black);
     border-color: var(--LightGreen);
-    box-shadow: 0 0 15px rgba(230, 242, 221, 0.2);
+    box-shadow: 0 0 0.9375rem rgba(230, 242, 221, 0.2); /* ΔΙΟΡΘΩΘΗΚΕ: Από 15px σε 0.9375rem */
 }
 
 .footer-social-media-a:hover::after,

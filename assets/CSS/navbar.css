@@ -4,7 +4,6 @@
     grid-template-rows: 1fr;
     gap: 0.5rem;
     align-items: center;
-
     max-width: 62.5rem;
     margin: 1.5rem auto;
     width: 100%;
@@ -27,13 +26,6 @@
 .navbar-links:hover {
     color: var(--White);
     font-weight: bold;
-    transform: translateY(-4px) scale(1.05);
+    transform: translateY(-0.25rem) scale(1.05);
     text-shadow: 0 0.625rem 2.1875rem var(--White);
-}
-
-/* Media Query για κινητά */
-@media (max-width: 768px) {
-    .navbar-links {
-        font-size: 0.7rem;
-    }
 }

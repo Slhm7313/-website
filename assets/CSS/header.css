@@ -45,13 +45,12 @@
     box-shadow: 0 0.6rem 1.8rem var(--DarkBlue-Green);
 }
 
-
 #small_text {
     grid-column: 1 / span 2;
     background-color: var(--trasnparen_background);
-    border-left: 4px solid var(--MidGreen);
+    border-left: 0.25rem solid var(--MidGreen);
     padding: 1.5rem;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     margin-top: 2rem;
     color: var(--Green);
     font-style: italic;
@@ -60,7 +59,7 @@
 }
 
 #small_text:hover {
-    transform: translateY(-4px) scale(1.2);
+    transform: translateY(-0.25rem) scale(1.2);
     color: var(--White);
 }
 
