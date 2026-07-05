@@ -6,6 +6,7 @@
     <title>Title</title>
     <link href="../CSS/mainCSS.css" rel="stylesheet">
     <link href="../CSS/navbar.css" rel="stylesheet">
+    <link href="../CSS/wresPage.css" rel="stylesheet">
     <link href="../CSS/footer.css" rel="stylesheet">
 </head>
 <body>
@@ -28,30 +29,39 @@
     </div>
 </div>
 
-<--TODO 6-->
+<!--TODO 6-->
 <div class="main_cont-wres">
+    <!-- 1. Τίτλος και Εισαγωγικό Κείμενο (Full Width) -->
     <div id="main_title-wres-h1">
-        <h1 id="wres-h2">Το Πρόγραμμα μας</h1>
+        <h1 id="wres-h1">Ωράριο & Φιλοσοφία</h1>
+        <p id="wres-span">
+            Είμαστε ανοιχτά καθημερινά, εκτός Κυριακής. Σχεδιάζουμε το πρόγραμμα με σεβασμό στα παιδιά, αποφεύγοντας
+            περιττές ώρες που τα κουράζουν, κρατώντας μόνο την ουσία.
+        </p>
     </div>
-    <img alt="image from a desk" src="../images/wres_img.jpeg">
+
+    <!-- 2. Αριστερή Κολώνα: Οι Ώρες -->
     <div id="wres-main-p">
         <ul id="wres-ul">
-            <p id="wres-p">
-                Είμαστε ανοιχτά καθημερινά, εκτός Κυριακής. Σχεδιάζουμε το πρόγραμμα με σεβασμό στα παιδιά, αποφεύγοντας
-                περιττές ώρες που τα κουράζουν, κρατώντας μόνο την ουσία της μάθησης που χρειάζονται
-            </p>
-            <li class="meres-kai-wres-li">Δευτέρα: 15:00-22:00</li>
-            <li class="meres-kai-wres-li">Τρίτη: 15:00-22:00</li>
-            <li class="meres-kai-wres-li">Τετάρτη: 15:00-22:00</li>
-            <li class="meres-kai-wres-li">Πέμπτη: 15:00-22:00</li>
-            <li class="meres-kai-wres-li">Παρασκευή: 15:00-22:00</li>
-            <li class="meres-kai-wres-li">Σάββατο: 9:00-2:00</li>
+            <li class="meres-kai-wres-li"><span class="mera">Δευτέρα:</span> 15:00 - 22:00</li>
+            <li class="meres-kai-wres-li"><span class="mera">Τρίτη:</span> 15:00 - 22:00</li>
+            <li class="meres-kai-wres-li"><span class="mera">Τετάρτη:</span> 15:00 - 22:00</li>
+            <li class="meres-kai-wres-li"><span class="mera">Πέμπτη:</span> 15:00 - 22:00</li>
+            <li class="meres-kai-wres-li"><span class="mera">Παρασκευή:</span> 15:00 - 22:00</li>
+            <li class="meres-kai-wres-li"><span class="mera">Σάββατο:</span> 09:00 - 14:00</li>
         </ul>
     </div>
+
+    <!-- 3. Δεξιά Κολώνα: Η Εικόνα (Διορθώθηκε το ID στο div) -->
+    <div id="wres_img-div">
+        <img alt="image from a desk" id="img_wres" src="../images/wres_img.jpeg">
+    </div>
+
+    <!-- 4. Bottom Banner (Full Width) -->
     <div id="small-text-wres-p">
         <p id="small-text-p">
-            Δημιουργούμε προγράμματα με επίκεντρο το παιδί. Για εμάς, δεν έχει σημασία μόνο η διάρκεια
-            των ωρών, αλλά η ουσία και η επιλογή των μαθημάτων που θα τα βοηθήσουν να εξελιχθούν.
+            Δημιουργούμε προγράμματα με επίκεντρο το παιδί. Για εμάς, δεν έχει σημασία μόνο η διάρκεια των ωρών, αλλά η
+            ουσία και η επιλογή των μαθημάτων που θα τα βοηθήσουν να εξελιχθούν.
         </p>
     </div>
 </div>
