@@ -24,16 +24,24 @@
 #evroskalijis-p1-div {
     grid-column: 1;
     grid-row: 2;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
 }
 
 #evroskalijis-p1 {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    width: 100%;
+    max-width: 25rem;
+    height: auto;
+    border-radius: 0.75rem;
 }
 
 #evroskalijis_img-div {
     grid-column: 2;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 
 #evroskalijis_img {
