@@ -59,7 +59,7 @@
 }
 
 #small_text:hover {
-    transform: translateY(-0.25rem) scale(1.2);
+    transform: translateY(-0.25rem) scale(1.1);
     color: var(--White);
 }
 
